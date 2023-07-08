@@ -1,0 +1,11 @@
+Delete a file 
+
+#!/bin/bash
+echo "Enter filename to remove"
+read fn
+rm -i $fn #rm command is used to remove any file
+
+Run the file
+$ ls
+$ bash delete_file.sh
+$ ls

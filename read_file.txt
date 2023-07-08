@@ -1,5 +1,5 @@
 #!/bin/bash
-file='book.txt'
+file='book.txt' #example file
 while read line; do
 echo $line
 done < $file
