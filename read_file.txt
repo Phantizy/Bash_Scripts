@@ -4,5 +4,5 @@ while read line; do
 echo $line
 done < $file
 
-*Run the file with bash command
+*Run the file with bash command*
 $ bash read_file.sh
