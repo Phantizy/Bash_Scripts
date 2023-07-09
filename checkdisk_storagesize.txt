@@ -1,0 +1,9 @@
+Check disk storage size 
+#!/bin/bash
+
+# Run the df command and store the output in a variable
+disk_usage=$(df -h)
+
+# Print the disk usage information
+echo "Disk Usage:"
+echo "$disk_usage"
